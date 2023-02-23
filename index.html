@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-center">
+    <Header>
+        <h1 class="text-6xl font-bold">Quotes</h1>
+    </Header>
+    <main>
+        <section>
+            <!-- <h2 class="text-5xl font-semibold">Read Quotes--</h2> -->
+            <blockquote id="quote" class="text-4xl text-teal-500 font-medium my-12">
+            </blockquote>
+            <button onclick="restQuotes()" class="btn btn-warning">Refresh</button>
+        </section>
+    </main>
+    <script src="./js/quote.js"></script>
+</body>
+</html>
